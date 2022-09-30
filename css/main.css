@@ -55,26 +55,32 @@ nav ul li a: hover{
   url("../images/sertao.jpg")
 }
 .about-me{
-  /* background-color: black; */
-  /* background-position: center; */
-  max-width: 1080px;
-  margin: 0 auto;
-  display:flex;
-}
-
-.about-me-paragraph{
-  dysplay: flex;
-
+  max-width:600px;
+  margin: 2rem auto;
+  /* display: flex; */
+  justify-content: space-around;
+  gap: 1.5em
 }
 
 .family{
-  display: flex;
-  margin: 2rem;
-
+  display: flex
 }
-.wrapper{
+
+.image-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-style: normal;
+}
+
+/* .wrapper{
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto; */
 
 }
 .flex{
@@ -82,56 +88,18 @@ nav ul li a: hover{
   gap: 3%;
 }
 
-.card{
+/* .image{
   width: 50%;
-  background-color: #f80;
   padding: 2em;
-}
+/* } */
 
-.card h3{
-  margin-top: 0;
-}
 
-  .top-stories {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 2.5rem;
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
   text-align: center;
-  font-style: italic;
-}
-
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap:1.5rem;
-}
-
-article {
-  border: 3px solid #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  }
-
-article > img {
-  height: 15vw;
-  object-fit: cover;
-}
-.article-details {
-  display: flex;
-  flex-direction: column;
-  padding: .5rem;
-}
-.author-info{
-  display: flex;
-  gap: .5rem;
-  align-items: center;
-/*   margin-top: auto; */
-}
-.author-info img{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
