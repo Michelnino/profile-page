@@ -66,11 +66,16 @@ nav ul li a:hover{
   display: flex
 }
 
+.my-work{
+  margin-right: 22px;
+  margin-left: 22px;
+}
+
 .image-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* grid-template-rows: auto 1fr 1fr; */
-  gap: 1rem;
+  gap: 2rem;
 }
 
 h2 {
